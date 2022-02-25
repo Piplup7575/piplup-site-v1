@@ -1,0 +1,123 @@
+/* Fonts from Google Fonts - https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #222222;
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+img {
+  height: 250px;
+}
+
+.pog {
+  width: 80%;
+  margin: auto;
+  border: 0px solid black;
+}
+
+.links1 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 400px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links2 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 500px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links3 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links4 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links5 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links6 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+.links7 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.links8 {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  max-width: 450px;
+  min-height: 525px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.feedback {
+  width: 85%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+}
+

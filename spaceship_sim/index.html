@@ -1,0 +1,79 @@
+
+<!-- If you want to see all of the code, go to: https://glitch.com/edit/#!/home-of-piplup7575 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spaceship Simulator</title>
+    <link rel="icon" ype="image/png" href="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2Ffavicon-16x16.png?v=1596032590548" sizes="16x16">
+    <link rel="shortcut icon" href="br.png" />
+    <link rel="stylesheet" href="gameStyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="gameScript.js"></script>
+  </head>
+
+  <body>
+    
+    <!-- TOP SECTION -->
+    <div id="title">
+      <h1>Spaceship Simulator</h1>
+    </div>
+
+    <!-- MIDDLE SECTION -->
+    <div id="center">
+      <!-- LEFT -->
+      <div id="left" class="middle side">
+        <h3>Starting game</h3>
+        <p>Click on the reload button on the simulator to start, and if the butttons on the simulator goes gray, hover over them, and continue playing.</p>
+        <h3>Instructions</h3>
+        <ul>
+          <li>Use the arrow keys to move around</li>
+          <li>Use the space bar to fire a power pellet</li>
+          <li>Shoot the space junk with the pellets</li>
+          <li>Avoid hiting junk</li>
+          <li>Colect hearts, but don't shoot them! If you do, you destory the heart and can't collect it. Also, if you shoot one, you loose a point.
+          </li>
+        </ul>
+        <h3>Trobleshooting</h3>
+        <p>If you can't play the game, try going to:</p>
+        <a href="https://makecode.com/_i5p0m8J8VDvm">https://makecode.com/<br>_i5p0m8J8VDvm</a>
+        <p>But rember to click the reload button on the simulator to start.</p>
+      </div>
+
+      <!-- CENTER -->
+      <div id="game" class="middle">
+        <div style="position:relative;height:0;padding-bottom:117.6%;overflow:hidden;">
+          <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://arcade.makecode.com/---run?id=_i5p0m8J8VDvm" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin"></iframe>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div id="right" class="middle side">
+        <a href="https://home-of-piplup7575.glitch.me/">Go Back</a>
+        <h3>About the game</h3>
+        <p>This game is a game where you are a U.S. Space Force astronut destroying space junk around earth in the year 2054, when there is too much space junk in orbit of earth due to alot of rocket launches.
+        <br>
+        Your goal is to destory as much space junk as you can without crashing your spaceship.
+        </p>
+        <h5>A few images of the game are at the bottom of the page.</h5>
+        <button onclick="changeColors()">Click me to randomly change background colors!</button>
+      </div>
+
+      <!-- SNAPSHOTS -->
+      <div id="images">
+        <img src="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2Fsim%20img.jpg?v=1594309584850">
+        <img src="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2Fsim%20img%202.jpg?v=1594309589704">
+        <img src="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2Fsim%20img%203.jpg?v=1594309594760">
+        <img src="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2Fsim%20img%204.jpg?v=1594309598671">
+      </div>
+    </div>
+    <center>
+      <p>Music Credits: <a href="https://www.youtube.com/channel/UCalWYKwd1Y7O1pbQ_JChvdA">ALFL</a>, <a href="https://youtu.be/2Urhz5dnB5Q">Yoshi's Island - Yoshi's Bop - Map Theme Remix</a></p>
+    <p>Here are the audio controls for the music:</p>
+      <audio controls> 
+          <source src="https://cdn.glitch.com/89979aba-b63e-4125-a86b-cd8a02f2d0fb%2FYoshi's%20Island%20-%20Yoshi%20Bop%20-%20(Map%20Theme%20remix)%20(64%20kbps).mp3?v=1622063057121" type="audio/mpeg"> 
+      </audio>    </center>
+  </body>
+</html>
