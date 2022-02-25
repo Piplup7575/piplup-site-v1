@@ -1,0 +1,51 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #222222;
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+img {
+  height: 300px;
+}
+
+.go {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.go {
+  max-width: 600px;
+  min-height: 10px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
+
+.memes {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.memes {
+  max-width: 500px;
+  min-height: 200px;
+  display: inline-block;
+  padding: 3px;
+  vertical-align: top;
+}
